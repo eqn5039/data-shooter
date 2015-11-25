@@ -84,7 +84,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         
         
-        backgroundColor = UIColor.whiteColor()
+        backgroundColor = UIColor.blackColor()
         //backgroundColor = UIColor(patternImage: (UIImage(named: "Image"))
         
         
@@ -96,7 +96,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         player.size = CGSize(width: 225, height: 225)
         player.position = CGPoint(x: scene!.frame.width / 2, y: scene!.frame.height / 2)
         //player.color = UIColor(red: 0.2, green: 0.2, blue: 0.2, alpha: 1.0)
-        player.color = UIColor.blueColor()
+        player.color = UIColor.whiteColor()
         player.colorBlendFactor = 0.5
         //player.colorBlendFactor = 1.0
         player.zPosition = 1.0;
